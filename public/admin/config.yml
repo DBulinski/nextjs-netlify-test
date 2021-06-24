@@ -59,7 +59,6 @@ collections:
           - label: "GitHub account"
             name: "github_account"
             widget: "string"
-
   - name: "meta"
     label: "Meta"
     delete: false
