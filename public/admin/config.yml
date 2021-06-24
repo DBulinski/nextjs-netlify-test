@@ -38,6 +38,9 @@ collections:
           - label: "Twitter account"
             name: "twitter_account"
             widget: "string"
+          - label: "Instagram account"
+            name: "instagram_account"
+            widget: "string"
           - label: "GitHub account"
             name: "github_account"
             widget: "string"
@@ -83,11 +86,15 @@ collections:
                 name: "slug"
                 widget: "string"
                 hint: "The part of a URL identifies the tag"
-              - label: "Display Name"
+              - label "Display Name"
                 name: "name"
                 widget: "string"
                 hint: "Tag name for displaying on the site"
-
+  - name: "menu"
+    label: "Menu"
+    file: "content/menu.json"
+    fields:
+      - { label: Title, name: title, widget: string }
   - name: "posts"
     label: "Posts"
     folder: "content/posts/"
