@@ -7,20 +7,20 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "menu"
-      label: "Menu"
-      delete: false
-      editor:
-        preview: false
-      files:
-        - name: "menu"
-          label: "Site Menu"
-          file: "menu.json"
-          description: "Menu"
-          fields:
-            - label: "URL"
-              name: "base_url"
-              widget: "string"
-              hint: "Do not enter the trailing slash of the URL"
+    label: "Menu"
+    delete: false
+    editor:
+    preview: false
+    files:
+     - name: "menu"
+       label: "Site Menu"
+       file: "menu.json"
+       description: "Menu"
+       fields:
+        - label: "URL"
+          name: "base_url"
+          widget: "string"
+          hint: "Do not enter the trailing slash of the URL"
   - name: "config"
     label: "Config"
     delete: false
