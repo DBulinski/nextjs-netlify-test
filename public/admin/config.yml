@@ -10,7 +10,7 @@ collections:
     label: "Menu"
     delete: false
     editor:
-    preview: false
+      preview: false
     files:
      - name: "menu"
        label: "Site Menu"
