@@ -6,6 +6,21 @@ public_folder: /images
 publish_mode: editorial_workflow
 
 collections:
+  - name: "menu"
+    label: "Menu"
+    delete: false
+    editor:
+      preview: false
+    files:
+     - name: "carousel"
+       label: "Site Menu"
+       file: "menu.json"
+       description: "Menu"
+       fields:
+        - label: "URL"
+          name: "base_url"
+          widget: "string"
+          hint: "Do not enter the trailing slash of the URL"
   - name: "config"
     label: "Config"
     delete: false
@@ -89,11 +104,6 @@ collections:
                 name: "name"
                 widget: "string"
                 hint: "Tag name for displaying on the site"
-  - name: "menu"
-    label: "Menu"
-    file: "content/menu.json"
-    fields:
-      - { label: Title, name: title, widget: string }
   - name: "posts"
     label: "Posts"
     folder: "content/posts/"
