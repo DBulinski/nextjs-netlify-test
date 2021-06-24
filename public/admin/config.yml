@@ -12,7 +12,7 @@ collections:
     editor:
       preview: false
     files:
-     - name: "menu"
+     - name: "carousel"
        label: "Site Menu"
        file: "menu.json"
        description: "Menu"
