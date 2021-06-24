@@ -154,7 +154,11 @@ collections:
           valueField: "tags.*.slug"
       - label: "Image"
         name: "image"
-        widget: "image"
+        widget: list
+        field:
+          label: "Carousel image"
+          name: "carousel"
+          widget: "image"
       - label: "Body"
         name: "body"
         widget: "markdown"
