@@ -152,6 +152,9 @@ collections:
           displayFields:
             - "tags.*.name"
           valueField: "tags.*.slug"
+      - label: "Image"
+        name: "image"
+        widget: "image"
       - label: "Body"
         name: "body"
         widget: "markdown"
